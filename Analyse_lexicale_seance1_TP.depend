@@ -26,3 +26,30 @@
 1573765597 c:\users\asus\desktop\s3-ensias\module compilation wchi haja\compilation\tp et projet réaliser\analyse_lexicale_seance1_tp\analysesyntaxique.h
 	"main.h"
 
+1574380942 source:c:\users\asus\desktop\s3 - ensias\m3.2 compilation\2.1 compilation\projet\tp\tp compilateur pascal\analysesyntaxique.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"analyseSyntaxique.h"
+	<unistd.h>
+
+1573765597 c:\users\asus\desktop\s3 - ensias\m3.2 compilation\2.1 compilation\projet\tp\tp compilateur pascal\analysesyntaxique.h
+	"main.h"
+
+1573765197 c:\users\asus\desktop\s3 - ensias\m3.2 compilation\2.1 compilation\projet\tp\tp compilateur pascal\main.h
+
+1574613240 source:c:\users\asus\desktop\s3 - ensias\m3.2 compilation\2.1 compilation\projet\tp\tp compilateur pascal\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"main.h"
+
+1574613864 source:c:\users\asus\desktop\s3 - ensias\m3.2 compilation\2.1 compilation\projet\tp\tp compilateur pascal\compile.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"compile.h"
+
+1573763321 c:\users\asus\desktop\s3 - ensias\m3.2 compilation\2.1 compilation\projet\tp\tp compilateur pascal\compile.h
+	"main.h"
+

@@ -16,6 +16,8 @@ int main()
             LireMot();
         }else if(caractereCourant<='9' && caractereCourant>= '0')
             LireNumber();
+        else if(caractereCourant == '{')
+                PasserCommentaire();
         else
             LireCaracterSpecialOrError();
     }

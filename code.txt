@@ -5,6 +5,7 @@ Begin
 x:=toto;
 read(y);
 while x<y do begin read(y); x:=x+y end
+if x>y then begin read(y); x:=x+y end
 write(x);
 write(y);
 end.

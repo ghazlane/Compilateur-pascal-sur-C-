@@ -63,6 +63,34 @@ void LireMot(){
     taille_tableau_resultat_analyse_lexicale++;
 }
 
+void PasserCommentaire(){
+    int comment = TRUE;
+    LireCaractere();
+    if(caractereCourant != '*') printf("erreur analyse lexicale");
+    else {
+        LireCaractere();
+        while(comment ==  TRUE){
+            while(caractereCourant != '*' && !feof(fileCodeExecute)){
+                LireCaractere();
+            }
+            if(feof(fileCodeExecute)) {
+                        printf("==========> %c", caractereCourant);
+                        printf("erreur analyse lexicale 2 ");
+                        comment =  FALSE;
+                        break;
+            }
+            LireCaractere();
+            if(caractereCourant == '}'){
+                    comment = FALSE;
+                LireCaractere();
+            }
+
+
+
+        }
+    }
+}
+
 int symoble_speciale(){
 if(caractereCourant != '<' && caractereCourant != '>' && caractereCourant != '(' && caractereCourant != ')' && caractereCourant != ':' && caractereCourant != '\n' && caractereCourant != ' ' && caractereCourant != '='&& caractereCourant != '+' && caractereCourant != ';'&& caractereCourant != '.'&& caractereCourant != '-'&& caractereCourant != '*'&& caractereCourant != '/'&& caractereCourant != ','){
     return TRUE;

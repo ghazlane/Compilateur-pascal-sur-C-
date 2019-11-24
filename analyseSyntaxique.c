@@ -27,7 +27,6 @@
     char * MULT_TOKEN = "MULT_TOKEN";
     char * DIV_TOKEN = "DIV_TOKEN";
 
-
 void analyseSybtaxique(){
     PROGRAM();
 }
