@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1574377557 source:c:\users\asus\desktop\s3-ensias\module compilation wchi haja\compilation\tp et projet réaliser\analyse_lexicale_seance1_tp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"main.h"
+
+1574377429 source:c:\users\asus\desktop\s3-ensias\module compilation wchi haja\compilation\tp et projet réaliser\analyse_lexicale_seance1_tp\compile.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"compile.h"
+
+1573763321 c:\users\asus\desktop\s3-ensias\module compilation wchi haja\compilation\tp et projet réaliser\analyse_lexicale_seance1_tp\compile.h
+	"main.h"
+
+1573765197 c:\users\asus\desktop\s3-ensias\module compilation wchi haja\compilation\tp et projet réaliser\analyse_lexicale_seance1_tp\main.h
+
+1574380942 source:c:\users\asus\desktop\s3-ensias\module compilation wchi haja\compilation\tp et projet réaliser\analyse_lexicale_seance1_tp\analysesyntaxique.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"analyseSyntaxique.h"
+	<unistd.h>
+
+1573765597 c:\users\asus\desktop\s3-ensias\module compilation wchi haja\compilation\tp et projet réaliser\analyse_lexicale_seance1_tp\analysesyntaxique.h
+	"main.h"
+
