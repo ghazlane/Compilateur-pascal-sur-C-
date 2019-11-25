@@ -12,6 +12,8 @@ void CloseFile();
 void Sym_suivi();
 void initialisation();
 void LireCaracterSpecialOrError();
+void test_resultat_analyseur_lexical();
+void PasserCommentaire();
 
 
 

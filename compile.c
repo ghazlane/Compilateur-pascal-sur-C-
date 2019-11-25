@@ -66,7 +66,9 @@ void LireMot(){
 void PasserCommentaire(){
     int comment = TRUE;
     LireCaractere();
-    if(caractereCourant != '*') printf("erreur analyse lexicale");
+    if(caractereCourant != '*') {
+       printf("erreur analyse lexicale");
+    }
     else {
         LireCaractere();
         while(comment ==  TRUE){
@@ -84,9 +86,6 @@ void PasserCommentaire(){
                     comment = FALSE;
                 LireCaractere();
             }
-
-
-
         }
     }
 }
@@ -112,8 +111,8 @@ void LireNumber(){
         mot_courant[strlen(mot_courant)] = caractereCourant;
         LireCaractere();
     }
-          printf("%s =====> ERRUR_TOKEN\n",mot_courant) ;
-          strcpy(tableauResultatAnalyseLexical[taille_tableau_resultat_analyse_lexicale],"ERRUR_TOKEN");
+          printf("%s =====> ERREUR_TOKEN\n",mot_courant) ;
+          strcpy(tableauResultatAnalyseLexical[taille_tableau_resultat_analyse_lexicale],"ERREUR_TOKEN");
                             taille_tableau_resultat_analyse_lexicale++;
         }
 }
@@ -221,4 +220,16 @@ void LireCaracterSpecialOrError(){
                             taille_tableau_resultat_analyse_lexicale++;
                     LireCaractere();
             }
+}
+
+void test_resultat_analyseur_lexical(){
+    int i;
+    char * ERREUR_TOKEN ="ERREUR_TOKEN";
+    for(i=0; i<taille_tableau_resultat_analyse_lexicale; i++){
+        if(strcmp(tableauResultatAnalyseLexical[i],ERREUR_TOKEN ) == 0){
+            printf("\n\n**************Programme terminer ==> erreur au niveau de l'analyse Lexicale *************");
+            exit(0);
+        }
+    }
+    printf("\n\n**************Analyse laxical terminer ==> Analyseur lexical bien fait *************");
 }
